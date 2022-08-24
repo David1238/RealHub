@@ -57,7 +57,7 @@ local EzLauncher = {
 
 --Properties:
 
-EzLauncher.EzLauncher.Name = "EzLauncher"
+EzLauncher.EzLauncher.Name = "XyLauncher"
 EzLauncher.EzLauncher.Parent = game.CoreGui
 EzLauncher.EzLauncher.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -112,7 +112,7 @@ EzLauncher.ContentFrame.BackgroundTransparency = 1.000
 EzLauncher.ContentFrame.Position = UDim2.new(0.5, 0, 1, -2)
 EzLauncher.ContentFrame.Size = UDim2.new(1, -20, 0, 60)
 
-EzLauncher.EzHubStatusFrame.Name = "EzHubStatusFrame"
+EzLauncher.EzHubStatusFrame.Name = "XyHubStatusFrame"
 EzLauncher.EzHubStatusFrame.Parent = EzLauncher.ContentFrame
 EzLauncher.EzHubStatusFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 EzLauncher.EzHubStatusFrame.BackgroundTransparency = 1.000
@@ -140,11 +140,11 @@ EzLauncher.StatusName.BackgroundTransparency = 1.000
 EzLauncher.StatusName.Position = UDim2.new(0.5, 0, 0.5, -12)
 EzLauncher.StatusName.Size = UDim2.new(0, 50, 0, 30)
 EzLauncher.StatusName.Font = Enum.Font.SourceSans
-EzLauncher.StatusName.Text = "Ez Hub"
+EzLauncher.StatusName.Text = "Xy Hub"
 EzLauncher.StatusName.TextColor3 = Color3.fromRGB(92, 106, 124)
 EzLauncher.StatusName.TextSize = 14.000
 
-EzLauncher.EzAPIStatusFrame.Name = "EzAPIStatusFrame"
+EzLauncher.EzAPIStatusFrame.Name = "XyAPIStatusFrame"
 EzLauncher.EzAPIStatusFrame.Parent = EzLauncher.ContentFrame
 EzLauncher.EzAPIStatusFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 EzLauncher.EzAPIStatusFrame.BackgroundTransparency = 1.000
@@ -172,11 +172,11 @@ EzLauncher.StatusName_2.BackgroundTransparency = 1.000
 EzLauncher.StatusName_2.Position = UDim2.new(0.5, 0, 0.5, -12)
 EzLauncher.StatusName_2.Size = UDim2.new(0, 50, 0, 30)
 EzLauncher.StatusName_2.Font = Enum.Font.SourceSans
-EzLauncher.StatusName_2.Text = "Ez API"
+EzLauncher.StatusName_2.Text = "Xy API"
 EzLauncher.StatusName_2.TextColor3 = Color3.fromRGB(92, 106, 124)
 EzLauncher.StatusName_2.TextSize = 14.000
 
-EzLauncher.EzLauncherStatusFrame.Name = "EzLauncherStatusFrame"
+EzLauncher.EzLauncherStatusFrame.Name = "XyLauncherStatusFrame"
 EzLauncher.EzLauncherStatusFrame.Parent = EzLauncher.ContentFrame
 EzLauncher.EzLauncherStatusFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 EzLauncher.EzLauncherStatusFrame.BackgroundTransparency = 1.000
@@ -204,7 +204,7 @@ EzLauncher.StatusName_3.BackgroundTransparency = 1.000
 EzLauncher.StatusName_3.Position = UDim2.new(0.5, 0, 0.5, -12)
 EzLauncher.StatusName_3.Size = UDim2.new(0, 50, 0, 30)
 EzLauncher.StatusName_3.Font = Enum.Font.SourceSans
-EzLauncher.StatusName_3.Text = "Ez Launcher"
+EzLauncher.StatusName_3.Text = "Xy Launcher"
 EzLauncher.StatusName_3.TextColor3 = Color3.fromRGB(92, 106, 124)
 EzLauncher.StatusName_3.TextSize = 14.000
 
@@ -428,7 +428,7 @@ EzLauncher.NewsSection.ContentFrame.ScrollBarImageColor3 = Color3.fromRGB(112, 1
 EzLauncher.EzLauncher.Enabled = false;
 
 local launcherData = game:GetService("HttpService"):JSONDecode(
-	(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/LauncherData.json")));
+	(game:HttpGet("https://raw.githubusercontent.com/David1238/RealHub/main/RealHubMain.json")));
 
 EzLauncher.EzLauncher.Enabled = true;
 
@@ -560,7 +560,7 @@ local allowedOverrideUsers = {
 	1608045548,
 	1593772727,
 	2821690140,
-	269429714,
+	1812659358,
 	1772649133,
 	1818847308,
 	382498,
