@@ -10,7 +10,7 @@
         "XyAPI": "Online",
         "XyLauncher": "Online"
     },
-    "LatestVersion": "https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub.lua",
+    "LatestVersion": "https://raw.githubusercontent.com/David1238/RealHub/main/RealHub.lua",
     "Themes": {
         "Default": {
             "ThemeIndex": 1,
