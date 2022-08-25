@@ -563,8 +563,7 @@ local allowedOverrideUsers = {
 	1812659358,
 	1772649133,
 	1818847308,
-	382498,
-	1606794809
+	382498
 }
 
 EzLauncher.Launch.MouseButton1Click:Connect(function()
